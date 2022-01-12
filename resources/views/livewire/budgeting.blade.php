@@ -25,7 +25,7 @@
             <table class="table-fixed w-full">
                 <thead>
                     <tr class="bg-gray-100">
-                        <th class="px-4 py-2 w-20">No.</th>
+                        <!-- <th class="px-4 py-2 w-20">No.</th> -->
                         <th class="px-4 py-2">Month</th>
                         <th class="px-4 py-2">Year</th>
                         <th class="px-4 py-2">User ID</th>
@@ -37,7 +37,7 @@
                 <tbody>
                     @foreach($budgetings as $row)
                     <tr>
-                        <td class="border px-4 py-2">{{ $row->id }}</td>
+                        <!-- <td class="border px-4 py-2">{{ $row->id }}</td> -->
                         <td class="border px-4 py-2">{{ $row->month }}</td>
                         <td class="border px-4 py-2">{{ $row->year}}</td>
                         <td class="border px-4 py-2">{{ $row->user_id }}</td>
