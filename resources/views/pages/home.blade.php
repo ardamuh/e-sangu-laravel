@@ -134,8 +134,7 @@
 
                 </h2>
                 <p class="text-gray-300 mt-5">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
+                E-sangu is an application that helps financially between parents and children, where parents can manage their children's finances so that they can be continuously monitored and maintained.                </p>
                 <h2 class="text-2xl tracking-tight font-extrabold text-gray-100">
                     <span class="block">Download our app:</span>
                 </h2>
@@ -148,8 +147,7 @@
                   </div>
                 </div>
             <div class="lg:relative lg:mt-16">
-                <!-- <img class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md" src="{{asset('frontend/business-3d-astonished-man-close-up-3.png')}}" alt=""> -->
-                
+                <!-- <img class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md" src="{{asset('frontend/pablita-finance.png')}}" alt="">              -->
               </div>
         </div>
     </div>
