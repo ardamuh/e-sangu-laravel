@@ -148,7 +148,7 @@
                   </div>
                 </div>
             <div class="lg:relative lg:mt-16">
-                <img class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md" src="{{asset('frontend/business-3d-astonished-man-close-up-3.png')}}" alt="">
+                <!-- <img class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md" src="{{asset('frontend/business-3d-astonished-man-close-up-3.png')}}" alt=""> -->
                 
               </div>
         </div>
