@@ -10,7 +10,12 @@
           </h1>
           <p class="leading-normal text-2xl mb-8">
           We help our users to make the right financial planner
-          </p>  
+          </p>
+          
+          <button class= "mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Start Now
+          </button>  
+        
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
@@ -124,19 +129,26 @@
     <div class="#f8fafc">
         <div class="lg:grid lg:grid-cols-2">
             <div class="py-24 px-10 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
-                <h2 class="text-4xl tracking-tight font-extrabold text-gray-100">
+                <h2 class="text-5xl tracking-tight font-extrabold text-gray-100">
                     <span class="block">E-Sangu App </span>
-                    <span class="block">Available Now</span>
-                </h2>
-                <!-- <p class="text-gray-300 mt-5">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p> -->
-                <img class="object-cover object-center" src="{{asset('frontend/download-logo-app-stoter-6.jpg')}}" alt="">
 
-               
-            </div>
+                </h2>
+                <p class="text-gray-300 mt-5">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <h2 class="text-2xl tracking-tight font-extrabold text-gray-100">
+                    <span class="block">Download our app:</span>
+                </h2>
+                <div class="flex justify-center">
+                  <div>
+                      <div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
+				                <img src="{{asset('frontend/App Store.svg')}}" class="h-16 pr-4 bounce-top-icons">
+				                <img src="{{asset('frontend/Play Store.svg')}}" class="h-16 bounce-top-icons">
+			                </div>
+                  </div>
+                </div>
             <div class="lg:relative lg:mt-16">
-                <!-- <img class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md" src="{{asset('frontend/Mar-Business_11.jpg')}}" alt=""> -->
+                <img class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md" src="{{asset('frontend/business-3d-astonished-man-close-up-3.png')}}" alt="">
                 
               </div>
         </div>
