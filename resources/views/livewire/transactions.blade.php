@@ -23,7 +23,7 @@
                         <th class="px-4 py-2">Created at</th>
                         <th class="px-4 py-2">Amount</th>
                         <th class="px-4 py-2">User Id</th>
-                        <th class="px-4 py-2">Category Id</th>
+                        <th class="px-4 py-2">Category</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,7 +33,7 @@
                             <td class="border px-4 py-2">{{ $row->created_at }}</td>
                             <td class="border px-4 py-2">{{ $row->amount }}</td>
                             <td class="border px-4 py-2">{{ $row->user_id }}</td>
-                            <td class="border px-4 py-2">{{ $row->category_id}}</td>
+                            <td class="border px-4 py-2">{{ $row->category}}</td>
                             </td>
                         </tr>
                     @empty

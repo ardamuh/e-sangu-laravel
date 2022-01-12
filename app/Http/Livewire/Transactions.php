@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class Transactions extends Component
 {
-    public $transactions, $created_at, $amount, $user_id, $category_id;
+    public $transactions, $created_at, $amount, $user_id, $category;
     public $isModal = 0; 
 
     public function render()
@@ -35,7 +35,7 @@ class Transactions extends Component
         $this->amount = $transaction->amount;
         $this->created_at = $transaction->created_at;
         $this->user_id = $transaction->user_id;
-        $this->category_id = $transaction->category_id;
+        $this->category = $transaction->category;
 
         $this->openModal(); //LALU BUKA MODAL
     }
